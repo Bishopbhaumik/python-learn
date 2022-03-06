@@ -1,0 +1,11 @@
+fib=[]
+print(fib)
+fib.append(1)
+fib.append(2)
+fib.append('mango')
+print(fib)
+fib.append(1.678)
+fib.append(10)
+fib.append(45)
+fib.append('Black')
+print(fib)

@@ -1,0 +1,10 @@
+name="bIsHop bhAUmiK"
+print(name)
+print(len(name))
+print(name.lower())
+print(name.upper())
+print(name.title()) 
+print(name.count("b"))
+name,char=input("enter a name and a charecter:").split(",")
+print(f"the length of name is {len(name)}")
+print(f"charecter count{name.strip().lower().count(char.strip().lower())}")
